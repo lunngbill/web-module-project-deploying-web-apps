@@ -1,29 +1,19 @@
-# Module Project: Deploying Web Apps - Portfolio Piece
+# Pokémon Quiz Game
 
-In this module you will use what you've learned about deploying a web application, and deploy one of the apps you've built so that you can add it to your portfolio page.
+## Description
 
+A simple web-based Pokémon quiz game where users can guess the names of Pokémon and earn points for correct answers.
 
-## Objectives
-- Build a simple static application
-- Use vercel to deploy
+## Features And Validations
 
-## Introduction
-Think about which project you are most proud of up to this point that you have built from the ground up or consider designing a small new project. ***Do your best to rebuild that project within THIS repository***
+- Fetches data from the [PokeAPI](https://pokeapi.co/) to get information about Pokémon.
+- Displays Pokémon images and options for users to choose the correct Pokémon name.
+- Tracks and displays points based on user's correct answers.
+- Provides feedback on whether the guess was correct or wrong.
+- Randomizes questions to keep the game interesting.
+- Prevents repeating questions to ensure a unique gaming experience.
 
-***Make sure to complete your tasks one at a time and complete test each task before proceding forward.***
+## Sources
 
-## Instructions
-### Task 1: Project Set Up
-* [ ] Create a forked copy of this project.
-* [ ] Clone your OWN version of the repository in your terminal
-* [ ] Use create react app to build a new project.
-
-### Task 2: Project Requirements
-#### Build your DOM
-* [ ] CD inside of created source
-* [ ] Rebuild a static (non-api accessing) project here based on a previous assignment.
-* [ ] Deploy to vercel.
-* [ ] ***Make sure that your vercel project correctly points to the root folder of your project.***
-
-### Submission Format
-- [ ] For this project, submit the link to your vercel hosted website.
+- favicon.png - https://www.pngplay.com/wp-content/uploads/2/Pokeball-PNG-Photo-Image.png
+- loading_icon.gif - https://media.tenor.com/je-huTL1vwgAAAAi/loading-buffering.gif
